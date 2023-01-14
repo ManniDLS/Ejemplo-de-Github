@@ -3,3 +3,5 @@ Esta es la historia de Manni.
 Manni tiene 26 años y nació en Ciudad de México.
 
 Hoy hablaremos de su historia.
+
+Este es un texto añadido para modificar el archivo.
