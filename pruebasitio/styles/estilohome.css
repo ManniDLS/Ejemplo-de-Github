@@ -1,0 +1,207 @@
+body {
+	margin: 0;
+	background-image: url("https://wallpapertag.com/wallpaper/full/7/5/8/394034-dark-background-images-2560x1600-for-android-40.jpg");
+	object-fit: cover;
+}
+
+/*.fondo {
+	position: absolute;
+}
+
+.fondo img {
+	width: 100vw;
+	height: 100vh;
+}*/
+
+.header {
+	background: #909;
+}
+
+.nav {
+	display: flex;
+	height: 60px;
+	align-items: center;
+}
+
+.nav__logo {
+	background: #c0f;
+	padding: 0px 3px;
+	line-height: 0;
+	border-radius: 15%;
+	font-size: 12px;
+	margin: 8px;
+}
+.nav__buscador {
+	display: flex;
+	flex-grow: 2;
+	flex-shrink: 0;
+}
+
+.nav__buscador i {
+	color: #fff;
+	align-self: center;
+	position: absolute;
+	margin: 5px;
+}
+.nav__buscador input {
+	flex-grow: 2;
+	background: #909;
+	border: none;
+	height: 60px;
+	color: #fff;
+	padding: 20px 20px;
+	margin: 0px 5px;
+}
+
+input::placeholder {
+	color: #fff;
+}
+.nav__buscador input:focus {
+	outline: none;
+	border-bottom: 3px solid #1dd;
+}
+.donacion {
+	padding: 18px;
+	background: #B404AE;
+}
+.donacion a {
+	color: #FACC2E;
+	text-decoration: none;
+	font-size: 20px;
+}
+.pestañas__li {
+	display: inline-block;
+	display: flex;
+}
+
+.nav__pestañas li {
+	display: inline-block;
+	margin: 10px;
+	flex-shrink: 0;
+}
+
+li a {
+	color: #fff;
+	text-decoration: none;	
+}
+
+
+h2 {
+	position: relative;
+	display: inline-block;
+	margin: 20px;
+	left: 200px;
+	font-size: 35px;
+	color: #fff;
+}
+hr {
+	width: 70%;
+	position: relative;
+	margin: 0 auto;
+	min-width: 470px;
+
+}
+.tendencias1, .tendencias2 {
+	background: #transparent;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+}
+.tendencias1 {
+	margin: 30px 10px 0px;
+	position: relative;
+	flex-wrap: wrap;
+}
+.tendencias2 
+{
+	margin: 0px 10px 40px;
+}
+.tendencias__caja {
+	height: 250px;
+	background: transparent;
+	outline: 1px solid #000;
+	margin: 15px;
+	min-width: 200px;
+	flex-wrap: wrap;
+	max-width: 450px;
+	flex-grow: 1;
+}
+.caja1, .caja2 {
+	display: flex;
+	flex-grow: 1;
+}
+.caja1__div, .caja2__div {
+	flex-grow: 1;
+	
+}
+.caja__imagen1, .caja__imagen2 {
+	height: 250px;
+	min-width: 80px;
+	max-width: 150px;
+	background: blue;
+	display: flex;
+	flex-grow: 1;
+	
+}
+.caja__imagen1-texto {
+	position: absolute;
+}
+.caja__imagen1 a {
+	flex-grow: 1;
+	display: flex;
+
+}
+.caja__imagen1 img {
+	width: 80px;
+	flex-grow: 1;
+	object-fit: cover;
+
+}
+.caja__texto1, .caja_texto2 {
+	height: 250px;
+	min-width: 120px;
+	background: #8904B1;
+	/*display: flex;*/
+}
+.subcaja, .subcaja2 {
+	background: #8904B1;
+	height: 250px;
+	padding: 25px;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+
+}
+.caja__texto1 p, .caja__texto2 p {
+	color: #fff;
+	/*display: inline-block;*/
+	margin: 10px;
+	flex-shrink: 5;
+}
+.caja__texto1 p > a, .caja__texto2 p > a {
+	font-size: 30px;
+	color: #fff;
+	text-decoration: none;
+	
+}
+.caja__texto1-button, .caja__texto2-button {
+	display: block;
+	background: #444;
+	color: #ccc;
+	margin: 3px;
+	padding: 5px;
+	border-radius: 40%;
+	border: none;
+	position: relative;
+	top: 35px;
+	text-align: left;
+	}
+	.caja__texto1-button:active, .caja__texto2-button:active {
+		background: #088A85;
+		color: #fff;
+	}
+
+footer {
+	background: #909;
+}
